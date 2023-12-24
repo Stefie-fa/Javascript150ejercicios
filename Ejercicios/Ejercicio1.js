@@ -14,12 +14,7 @@ let currentDay = "Today is: " + daysOfWeek[today] + "<br>";
 let hours = date.getHours(); 
 let minutes = date.getMinutes();
 let seconds = date.getSeconds();
-let time = "Current time is: " + formatTime(hours) + " " + formatTime(minutes) + " " + formatTime(seconds);
+let time = "Current time is: " + hours + " " + minutes + " " + seconds;
 
 document.write(currentDay);
 document.write(time);
-
-// Function to format time with AM/PM
-function formatTime(value) {
-    return value < 10 ? "0" + value : value;
-}
