@@ -9,9 +9,9 @@ Current time is : 10 PM : 30 : 38
 const date = new Date();
 
 let today = date.getDay();
-let daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]; // Wrap day names in quotes
-let currentDay = "Today is: " + daysOfWeek[today] + "<br>"; // Add a space after "is" for better formatting
-let hours = date.getHours(); // Use getHours instead of getHour
+let daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]; 
+let currentDay = "Today is: " + daysOfWeek[today] + "<br>"; 
+let hours = date.getHours(); 
 let minutes = date.getMinutes();
 let seconds = date.getSeconds();
 let time = "Current time is: " + formatTime(hours) + " " + formatTime(minutes) + " " + formatTime(seconds);
