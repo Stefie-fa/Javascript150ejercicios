@@ -6,7 +6,6 @@ arrayLeaders([1,2,3,4,0]), [4]);
 
 */
 
-//function to find all the LEADERS in the array
 function arrayLeaders(numbers) {
   // Initialize the array to store leaders
   let leaders = [];
