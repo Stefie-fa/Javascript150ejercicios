@@ -13,4 +13,4 @@ const stringToNumber = function(str){
 
 // call the function 
 const result = stringToNumber("123");
-document.write(result); 
+console.log(result); 

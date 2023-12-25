@@ -11,4 +11,4 @@ function isDivisible(n, x, y) {
 
 // Call the function
 const resultado1 = isDivisible(3, 3, 1);
-document.write(resultado1); 
+console.log(resultado1); 
